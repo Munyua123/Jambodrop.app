@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "AKATSUKI CLOAK",
+      "description": "This anime akatsuki cosplay costume is made of high-quality materials, functional polyester fiber and strong stitching, comfortable and soft to wear for adult and kids.",
+      "price": "3500",
+      "image": "https://animehub.co.ke/wp-content/uploads/2022/08/O1CN01LJFNnu1yV3y1bMYZM_2211115096583-0-cib.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Uchiha Crest Naruto",
+      "description": "material: zinc alloy,diameter of pendant: 2.7cm weight: about 20g packing: gift box",
+      "price": 600,
+      "image": "https://animehub.co.ke/wp-content/uploads/2023/01/O1CN01AbxEZw1XolO39GUgx_3011682971-0-cib.jpg"
+    },
+    {
+      "title": "Akatsuki Cap",
+      "description": "Akatsuki Cap",
+      "price": 800,
+      "image": "https://animehub.co.ke/wp-content/uploads/2020/02/Akatsuki-Cap-600x600.jpg",
+      "id": 3
+    },
+    {
+      "title": "Akatsuki Cloud Pendant",
+      "description": "The pendant based on the anime Naruto is made of alloy.The necklace, is perfect as a gift for fans of the anime Naruto who want to express their love for the anime.",
+      "price": 600,
+      "image": "https://animehub.co.ke/wp-content/uploads/2023/01/15948732866_1387365254.jpg",
+      "id": 4
+    },
+    {
+      "title": "Akatsuki Rings",
+      "description": "TThe best gift for fans of Naruto.",
+      "price": 500,
+      "image": "https://animehub.co.ke/wp-content/uploads/2021/12/Akatsuki-Ring.jpg.webp",
+      "id": 5
+    },
+    {
+      "title": "Anime Bracelets",
+      "description": "Size :about 20cm,Material : artificial Leather & alloy,Condition : 100% New,1pc",
+      "price": 550,
+      "image": "https://animehub.co.ke/wp-content/uploads/2022/08/9974141110_66428711.jpg",
+      "id": 6
+    },
+    {
+      "title": "Anime Braided Leather Bracelet",
+      "description": "Material: High-quality braided leather, Design: Sleek and minimalist with an anime-themed charm Adjustable closure for a customized fit Versatile for various occasions Adds a touch of anime-inspired flair to your outfits.Durable and comfortable to wear",
+      "price": 600,
+      "image": "https://animehub.co.ke/wp-content/uploads/2023/06/O1CN01STp6fT1XolTBsm52x_3011682971-0-cib-1.jpg",
+      "id": 7
+    },
+    {
+      "title": "Anime Jujutsu Kaisen Sticker",
+      "description": "ujutsu Kaisen Anime Graffiti Stickers for Laptop, Skateboard, Bike, Helmet, Luggage, Motorcycle, etc. All stickers are brand new and made with high quality pvc with sun protection and waterproof.",
+      "price": 100,
+      "image": "https://animehub.co.ke/wp-content/uploads/2021/10/Jujutsu-Kaisen-Sticker.jpg-1536x1536.webp",
+      "id": 8
+    }
+  ]
+}

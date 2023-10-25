@@ -32,6 +32,16 @@ background-color: #adb5bd;
         padding: 1rem;
         font-size: 1rem;
     }
+    #reviewForm{
+     margin: auto;
+    }
+    #reviewName{
+        text-align: center;
+    }
+    #productForm{
+        margin-left: 29rem;
+        padding-left: 3rem;
+    }
 }
     
 h1{
@@ -45,24 +55,68 @@ h1{
 #businessDetails {
   text-align: center;
 }
-.rounded {
-  display: flex;
-  justify-content: space-evenly;
+#productForm{
+    width: 390px;
+}
+#createProduct{
+    background-color: #00A9FF;
+    color: #fff;
+    transition: all 100ms;
+}
+#createProduct:hover{
+    border-color: #00A9FF;
+}
+#productUpdate{
+    background-color: #F4BF96;
+    margin-left: 9rem;
+    transition: all 200ms;
+}
+#productUpdate:hover{
+    border-color: #F4BF96;
+}
+.card{
+    width: 18rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #ced4da;
+
+}
+#delete{
+    background-color: red;
+    margin-left: 5.5rem;
 }
 footer{
     margin-bottom: 0;
     background-color: #ced4da;
 }
+.reviewForm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 #floatingInput {
   border: 1px solid;
   width: 250px;
 }
-
 #floatingTextarea {
-  border: 1px solid;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  width: 300px;
+    border: 1px solid;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 300px;
+}
+#submit{
+    margin-left: 1rem;
+    width: 10rem;
+    background-color: #ced4da;
+    border: 2px solid #ced;
+    transition: border-color 200ms;
+}
+#submit:hover{
+    border-color: #000;
+}
+#review-list{
+  list-style: none;
+
 }
 #contact{
     display: flex;
