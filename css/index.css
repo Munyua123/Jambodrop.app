@@ -39,8 +39,7 @@ background-color: #adb5bd;
         text-align: center;
     }
     #productForm{
-        margin-left: 29rem;
-        padding-left: 3rem;
+        margin-left: 24rem;
     }
 }
     
@@ -57,6 +56,24 @@ h1{
 }
 #productForm{
     width: 390px;
+
+}
+#imageUrl{
+    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+}
+#productName{
+  margin-left: 2.6rem;
+  margin-bottom: 1rem;
+}
+#productDescription{
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+#productPrice{
+    margin-left: 3.2rem;
+    margin-bottom: 1rem;
 }
 #createProduct{
     background-color: #00A9FF;
@@ -68,7 +85,7 @@ h1{
 }
 #productUpdate{
     background-color: #F4BF96;
-    margin-left: 9rem;
+    margin-left: 15rem;
     transition: all 200ms;
 }
 #productUpdate:hover{

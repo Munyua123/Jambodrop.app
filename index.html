@@ -71,43 +71,22 @@
     <section>
       <!-- Form to deal with adding and updating products onto the server-->
       <div id="productForm">
-        <form action="POST">
-          <div class="form-floating">
-            <textarea
-              class="form-control"
-              placeholder="Input the link to the product image"
-              id="floatingTextarea"
-              required
-            ></textarea>
-            <label for="floatingTextarea">Image Link</label>
+        <form action="POST" id="postForm">
+          <div>
+            <label for="imageUrl">Image Link:</label>
+            <input type="url" id="imageUrl" required placeholder="Image Address">
           </div>
-          <div class="form-floating">
-            <textarea
-              class="form-control"
-              placeholder="Input the product name"
-              id="floatingTextarea"
-              required
-            ></textarea>
-            <label for="floatingTextarea">Product Name</label>
+          <div>
+            <label for="productName">Product Name</label>
+            <input type="text" id="productName" required placeholder="Enter Product Name">
           </div>
-          <div class="form-floating">
-            <label for="productD"></label>
-            <textarea
-              class="form-control"
-              placeholder="Put the product description"
-              id="floatingTextarea"
-              required
-            ></textarea>
-            <label for="floatingTextarea">Product Description</label>
+          <div>
+            <label for="productDescription">Product description</label>
+            <input type="text" id="productDescription" required placeholder="Enter product description">
           </div>
-          <div class="form-floating">
-            <textarea
-              class="form-control"
-              placeholder="Put the product price here"
-              id="floatingTextarea"
-              required
-            ></textarea>
-            <label for="floatingTextarea"> Product Price</label>
+          <div>
+            <label for="productPrice"> Product Price</label>
+            <input type="text" id="productPrice" required placeholder="Product Price">
           </div>
           <button type="submit" id="createProduct">Create</button>
           <button type="submit" id="productUpdate">Update</button>
@@ -129,22 +108,20 @@
             <strong><em>Leave your reviews here...</em></strong>
           </p>
           <form action="POST" id="reviewForm">
-            <div class="form-floating mb-3">
+            <div>
+              <label for="firstName">Name</label>
               <input
                 type="text"
-                class="form-control"
-                id="floatingInput"
+                id="firstName"
                 placeholder="Enter your name"
               />
-              <label for="floatingInput">Name</label>
             </div>
-            <div class="form-floating">
-              <textarea
-                class="form-control"
+            <div>
+              <label for="reviewDescription">Reviews</label>
+              <input
                 placeholder="Leave your review"
-                id="floatingTextarea"
-              ></textarea>
-              <label for="floatingTextarea">Reviews</label>
+                id="reviewDescription"
+              >
             </div>
             <button id="submit">Submit</button>
           </form>
