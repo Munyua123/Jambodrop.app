@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
   reviews.addEventListener("submit", (e) => {
     e.preventDefault();
     let productReviews = {
-      name: e.target.firstName.value,
-      Review: e.target.reviewDescription.value,
+      name: e.target.customerName.value,
+      Review: e.target.customerReview.value,
     };
     handleReview(productReviews);
     createReview(productReviews);

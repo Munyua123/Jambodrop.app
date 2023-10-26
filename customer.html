@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JAMBODROP</title>
+    <link rel="stylesheet" href="./css/customer.css" />
+    <script defer src="./js/customer.js"></script>
+    <script defer src="./js/index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/a8cbbd77a3.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- This section will hold the navigatio -->
+    <section id="navigation">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <p class="navbar-brand">AnimeWonders</p>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Products</a>
+              <a class="nav-link" href="#">Reviews</a>
+              <a class="nav-link" href="#">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section>
+      <!-- This will hold the headings and the introductory/greetings -->
+      <h1>Welcome To AnimeWonders Emporium</h1>
+      <h5>Venue for all your Anime Needs</h5>
+      <p>
+        <em
+          ><strong
+            >Unlock the Magic of Anime, One Collectible at a Time</strong
+          ></em
+        >
+      </p>
+      <p>
+        <em
+          >Welcome to our Shop remember to always buy everything with a smile,
+          and leave a good review.It never hurts to be nice. Incase of any
+          problem you can can use the contacts below or leave a review and we'll
+          get back to you. LOVE
+        </em>
+      </p>
+    </section>
+    <section>
+        <!-- This will hold all the products -->
+        <ul id="item-list" class="row">
+        </ul>
+    </section>
+    <section>
+        <!-- This will hold the review forms, and the reviews on the products -->
+        <form action="POST" id="review-form">
+            <div>
+                <label for="customerName">Name:</label>
+                <input type="text" id="customerName" placeholder="Enter your name..." required>
+            </div>
+            <div>
+                <label for="customerReview">Review:</label>
+                <input type="text" id="customerReview" required placeholder="Enter your Review">
+            </div>
+            <button type="submit" id="submitReview">Submit</button>
+        </form>
+        <div>
+            <ul id="review-list"></ul>
+        </div>
+    </section>
+    <section>
+        <!-- This will hold the footer of the website, it will contain
+        contact information, location, links to the socials -->
+        <footer>
+            <div id="icons">
+                <p>Follow us on:
+                    <img src="./main/facebook.svg" alt="facebook logo">
+                    <img src="./main/instagram.svg" alt="Instagram logo">
+                    <img src="./main/whatsapp.svg" alt="Whatsapp logo">
+                </p>
+            </div>
+            <span id="location">We are Located at:</span>
+            <p>Thank You for Shoppin with us</p>
+        </footer>
+    </section>
+  </body>
+</html>

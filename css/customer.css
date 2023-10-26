@@ -1,0 +1,91 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css");
+
+body{
+    background-color: #EAD7BB;
+}
+#navigation{
+    margin-bottom: 1rem;
+}
+.container-fluid{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #0F0F0F;
+    color: #fff;
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 2rem;
+    transition: color 200ms;
+}
+.navbar-brand:hover{
+    color: orangered;
+}
+.navbar-toggler{
+    background-color: #fff;
+    
+}
+.nav-link{
+    color: #fff;
+    transition:ease-in-out 200ms;
+}
+.nav-link:hover{
+    color: orangered;
+}
+.fa-solid{
+    transition: color 200ms;
+}
+.fa-solid:hover{
+   color: orangered;
+}
+@media (min-width: 1200px) {
+    .navbar-nav{
+        position: relative;
+        left: 18.3rem;
+    }
+    .d-flex{
+        position: relative;
+        left: 14rem;
+    }
+    .fa-solid{
+        position: relative;
+        left: 38rem;
+    }
+}
+#review-form{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#customerName{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+#customerReview{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+#submitReview{
+    width: 6rem;
+    background-color: #EAD7BB;
+    transition: ease-in-out 200ms;
+}
+#submitReview:hover{
+    background-color: #FFF2D8;
+}
+#icons{
+    display: flex;
+    justify-content: end;
+}
+#icons img{
+    width: 20px;
+}
+#location{
+    position: relative;
+    bottom: 2.6rem;
+
+}
+footer p{
+    text-align: center;
+}
