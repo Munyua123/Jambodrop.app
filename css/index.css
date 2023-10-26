@@ -1,148 +1,169 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css");
 
-body{
-background-color: #adb5bd;
+body {
+  background-color: #adb5bd;
 }
 /* #navigation >  .navbar{
     background-color: #e3f2fd;
 } */
-#navigation{
-    margin-bottom: 1rem;
+#navigation {
+  margin-bottom: 1rem;
 }
-.navbar-brand{
-    font-size: 1.5rem;
-    color: #000;
- transition: color 300ms;
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #000;
+  transition: color 300ms;
 }
-.navbar-brand:hover{
-    color: orangered;
+.navbar-brand:hover {
+  color: orangered;
 }
-.nav-link{
-    transition: color 300ms;
-    color: black;
+.nav-link {
+  transition: color 300ms;
+  color: black;
 }
-.nav-link:hover{
-    color: orangered;
+.nav-link:hover {
+  color: orangered;
 }
-@media (min-width: 1200px){
-    .navbar-nav{
-        margin-left: 50rem;
-    }
-    .nav-link{
-        padding: 1rem;
-        font-size: 1rem;
-    }
-    #reviewForm{
-     margin: auto;
-    }
-    #reviewName{
-        text-align: center;
-    }
-    #productForm{
-        margin-left: 24rem;
-    }
-}
-    
-h1{
+@media (min-width: 1200px) {
+  .navbar-nav {
+    margin-left: 50rem;
+  }
+  .nav-link {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  #reviewForm {
+    margin: auto;
+  }
+  #reviewName {
     text-align: center;
-    font-size: 2rem;
+  }
+  #productForm {
+    margin-left: 24rem;
+  }
 }
-#slogan{
-    margin-top: 1rem;
-    text-align: center;
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+#slogan {
+  margin-top: 1rem;
+  text-align: center;
 }
 #businessDetails {
   text-align: center;
 }
-#productForm{
-    width: 390px;
-
+#productForm {
+  width: 390px;
 }
-#imageUrl{
-    margin-top: 1rem;
-    margin-left: 4rem;
-    margin-bottom: 1rem;
+#imageUrl {
+  margin-top: 1rem;
+  margin-left: 4rem;
+  margin-bottom: 1rem;
 }
-#productName{
+#productName {
   margin-left: 2.6rem;
   margin-bottom: 1rem;
 }
-#productDescription{
-    margin-left: 0.5rem;
+#productDescription {
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+}
+#productPrice {
+  margin-left: 3.2rem;
+  margin-bottom: 1rem;
+}
+#productStock{
+    margin-left: 2.3rem;
     margin-bottom: 1rem;
 }
-#productPrice{
-    margin-left: 3.2rem;
-    margin-bottom: 1rem;
+#createProduct {
+  background-color: #00a9ff;
+  color: #fff;
+  transition: all 100ms;
+  margin-left: 11rem;
 }
-#createProduct{
-    background-color: #00A9FF;
-    color: #fff;
-    transition: all 100ms;
+#createProduct:hover {
+  border-color: #00a9ff;
 }
-#createProduct:hover{
-    border-color: #00A9FF;
-}
-#productUpdate{
-    background-color: #F4BF96;
-    margin-left: 15rem;
-    transition: all 200ms;
-}
-#productUpdate:hover{
-    border-color: #F4BF96;
-}
-.card{
-    width: 18rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    background-color: #ced4da;
-
-}
-#delete{
-    background-color: red;
-    margin-left: 5.5rem;
-}
-footer{
-    margin-bottom: 0;
-    background-color: #ced4da;
-}
-.reviewForm{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-#floatingInput {
-  border: 1px solid;
-  width: 250px;
-}
-#floatingTextarea {
-    border: 1px solid;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    width: 300px;
-}
-#submit{
-    margin-left: 1rem;
-    width: 10rem;
-    background-color: #ced4da;
-    border: 2px solid #ced;
-    transition: border-color 200ms;
-}
-#submit:hover{
-    border-color: #000;
-}
-#review-list{
-  list-style: none;
-
-}
-#contact{
+#item-list{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
-#icons a{
-    padding: 0.4rem;
+.card {
+    width: 18rem;
+    margin-top: 2rem;
+    background-color: #adb5bd;
 }
 
-#thankyou{
-    text-align: center;
+#productUpdate {
+  background-color: #000;
+  transition: all 200ms;
+}
+#productUpdate:hover {
+  border-color: #ced;
+}
+#delete {
+    position: relative;
+    background-color: red;
+    margin-left: 7rem;
+    bottom: 2rem;
+}
+footer {
+  margin-bottom: 0;
+  background-color: #ced4da;
+}
+.reviewForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.reviewslist {
+  background-color: #ced;
+  width: auto;
+}
+#firstName {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+#reviewDescription {
+  margin-left: 0.6rem;
+  margin-bottom: 1rem;
+}
+#submit {
+  margin-left: 1rem;
+  width: 10rem;
+  background-color: #ced4da;
+  border: 2px solid #ced;
+  transition: border-color 200ms;
+}
+#submit:hover {
+  border-color: #000;
+}
+#review-list {
+  list-style: none;
+}
+#deleteReview{
+    margin-left: 2rem;
+    background-color: #ced;
+    border-color: #ced;
+    color: #ced;
+    transition: all 300ms;
+}
+#deleteReview:hover{
+    border-color: #000;
+    color: #000;
+}
+#contact {
+  display: flex;
+  justify-content: space-between;
+}
+#icons a {
+  padding: 0.4rem;
+}
+
+#thankyou {
+  text-align: center;
 }

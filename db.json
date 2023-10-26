@@ -1,23 +1,10 @@
 {
   "products": [
     {
-      "id": 1,
-      "title": "AKATSUKI CLOAK",
-      "description": "This anime akatsuki cosplay costume is made of high-quality materials, functional polyester fiber and strong stitching, comfortable and soft to wear for adult and kids.",
-      "price": "3500",
-      "image": "https://animehub.co.ke/wp-content/uploads/2022/08/O1CN01LJFNnu1yV3y1bMYZM_2211115096583-0-cib.jpg"
-    },
-    {
-      "id": 2,
-      "title": "Uchiha Crest Naruto",
-      "description": "material: zinc alloy,diameter of pendant: 2.7cm weight: about 20g packing: gift box",
-      "price": 600,
-      "image": "https://animehub.co.ke/wp-content/uploads/2023/01/O1CN01AbxEZw1XolO39GUgx_3011682971-0-cib.jpg"
-    },
-    {
       "title": "Akatsuki Cap",
       "description": "Akatsuki Cap",
       "price": 800,
+      "availablestock": 0,
       "image": "https://animehub.co.ke/wp-content/uploads/2020/02/Akatsuki-Cap-600x600.jpg",
       "id": 3
     },
@@ -25,6 +12,7 @@
       "title": "Akatsuki Cloud Pendant",
       "description": "The pendant based on the anime Naruto is made of alloy.The necklace, is perfect as a gift for fans of the anime Naruto who want to express their love for the anime.",
       "price": 600,
+      "availablestock": 10,
       "image": "https://animehub.co.ke/wp-content/uploads/2023/01/15948732866_1387365254.jpg",
       "id": 4
     },
@@ -32,6 +20,7 @@
       "title": "Akatsuki Rings",
       "description": "TThe best gift for fans of Naruto.",
       "price": 500,
+      "availablestock": 20,
       "image": "https://animehub.co.ke/wp-content/uploads/2021/12/Akatsuki-Ring.jpg.webp",
       "id": 5
     },
@@ -39,6 +28,7 @@
       "title": "Anime Bracelets",
       "description": "Size :about 20cm,Material : artificial Leather & alloy,Condition : 100% New,1pc",
       "price": 550,
+      "availablestock": 20,
       "image": "https://animehub.co.ke/wp-content/uploads/2022/08/9974141110_66428711.jpg",
       "id": 6
     },
@@ -46,6 +36,7 @@
       "title": "Anime Braided Leather Bracelet",
       "description": "Material: High-quality braided leather, Design: Sleek and minimalist with an anime-themed charm Adjustable closure for a customized fit Versatile for various occasions Adds a touch of anime-inspired flair to your outfits.Durable and comfortable to wear",
       "price": 600,
+      "availablestock": 20,
       "image": "https://animehub.co.ke/wp-content/uploads/2023/06/O1CN01STp6fT1XolTBsm52x_3011682971-0-cib-1.jpg",
       "id": 7
     },
@@ -53,6 +44,7 @@
       "title": "Anime Jujutsu Kaisen Sticker",
       "description": "ujutsu Kaisen Anime Graffiti Stickers for Laptop, Skateboard, Bike, Helmet, Luggage, Motorcycle, etc. All stickers are brand new and made with high quality pvc with sun protection and waterproof.",
       "price": 100,
+      "availablestock": 50,
       "image": "https://animehub.co.ke/wp-content/uploads/2021/10/Jujutsu-Kaisen-Sticker.jpg-1536x1536.webp",
       "id": 8
     },
@@ -60,8 +52,49 @@
       "title": "Hidden Leaf",
       "description": "Design Print – Vinyl,Round Neck T-shirt ,Made in Kenya",
       "price": 1200,
+      "availablestock": 0,
       "image": "https://i0.wp.com/nairobiotakushop.co.ke/wp-content/uploads/2022/10/Hidden-Leaf.jpg?w=1080&ssl=1",
       "id": 9
+    },
+    {
+      "image": "https://animehub.co.ke/wp-content/uploads/2023/01/O1CN01AbxEZw1XolO39GUgx_3011682971-0-cib.jpg",
+      "title": "Uchiha Crest Naruto",
+      "description": "material: zinc alloy, sdiameter of pendant: 2.7cm weight: about 20g packing: gift box",
+      "price": "700",
+      "availablestock": 20,
+      "id": 10
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Sakura-chan",
+      "Review": "I'm absolutely in love with the quality of this anime poster. It's a beautiful addition to my room!"
+    },
+    {
+      "id": 2,
+      "name": "OtakuMaster23",
+      "Review": "The keychain set is fantastic! My backpack has never looked cooler. Highly recommend!"
+    },
+    {
+      "name": "NatsuDragneelFan",
+      "Review": "This Fairy Tail hoodie is fire! Super comfy and the design is awesome. Natsu would approve!",
+      "id": 3
+    },
+    {
+      "name": "AnimeAddict001",
+      "Review": "As a die-hard anime fan, I can't express how excited I am about these manga collectibles. They're a dream come true!",
+      "id": 4
+    },
+    {
+      "name": "ChibiChaser",
+      "Review": "The chibi figurines are adorable! They now guard my anime collection. I'm beyond satisfied!",
+      "id": 5
+    },
+    {
+      "name": "ShinigamiCollector",
+      "Review": "This Death Note replica is a must-have for fans of the series. It's eerily perfect and an excellent conversation starter!",
+      "id": 6
     }
   ]
 }
