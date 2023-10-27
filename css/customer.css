@@ -51,6 +51,16 @@ body{
         left: 38rem;
     }
 }
+#item-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card{
+    width: 18rem;
+    margin-top: 2rem;
+    background-color: #BCA37F;
+}
 #review-form{
     padding-top: 2rem;
     padding-bottom: 1rem;
@@ -73,6 +83,9 @@ body{
 }
 #submitReview:hover{
     background-color: #FFF2D8;
+}
+#review-list{
+    list-style: none;
 }
 #icons{
     display: flex;

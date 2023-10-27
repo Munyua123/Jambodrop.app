@@ -20,7 +20,7 @@
       "title": "Akatsuki Rings",
       "description": "TThe best gift for fans of Naruto.",
       "price": 500,
-      "availablestock": 20,
+      "availablestock": 19,
       "image": "https://animehub.co.ke/wp-content/uploads/2021/12/Akatsuki-Ring.jpg.webp",
       "id": 5
     },
@@ -95,6 +95,11 @@
       "name": "ShinigamiCollector",
       "Review": "This Death Note replica is a must-have for fans of the series. It's eerily perfect and an excellent conversation starter!",
       "id": 6
+    },
+    {
+      "name": "HI",
+      "Review": "Good Product",
+      "id": 7
     }
   ]
 }

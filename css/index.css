@@ -23,7 +23,7 @@ body {
 }
 @media (min-width: 1200px) {
   .navbar-nav {
-    margin-left: 50rem;
+    margin-left: 42rem;
   }
   .nav-link {
     padding: 1rem;
@@ -121,22 +121,22 @@ footer {
   background-color: #ced;
   width: auto;
 }
-#firstName {
+#customerName {
   margin-left: 1rem;
   margin-bottom: 1rem;
 }
-#reviewDescription {
+#customerReview{
   margin-left: 0.6rem;
   margin-bottom: 1rem;
 }
-#submit {
+#submitReview{
   margin-left: 1rem;
   width: 10rem;
   background-color: #ced4da;
   border: 2px solid #ced;
   transition: border-color 200ms;
 }
-#submit:hover {
+#submitReview:hover {
   border-color: #000;
 }
 #review-list {
