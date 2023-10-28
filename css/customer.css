@@ -33,9 +33,20 @@ body{
 }
 .fa-solid{
     transition: color 200ms;
+    cursor: pointer;
 }
 .fa-solid:hover{
    color: orangered;
+}
+#cartList{
+    display: none;
+    position: fixed;
+    top: 3;
+    left: 0;
+    width: 20rem;
+    height: 30rem;
+    background: rgba(20, 20, 20, 2);
+    z-index: 1;
 }
 @media (min-width: 1200px) {
     .navbar-nav{
@@ -101,4 +112,10 @@ body{
 }
 footer p{
     text-align: center;
+}
+#addToCart{
+    transition: transform 100ms;
+}
+#addToCart:hover{
+    transform: scale(1.1);
 }

@@ -28,3 +28,15 @@ We then define a function that is responsible for holding our data.
 
 **POST request**
 We first create our first button that will have an eventListeber that will help in the creation of the Products.
+The post request will help the sellers to be able to create a new product, and it will allow the customers in creating their reviews.
+
+The procedure for a POST request is 
+you first create your fetch request, followed by telling the server that its a post request by putting a method post, you then add headers and body that will turn your input into a JSON, you then add a promise response.
+
+**PATCH request**
+This requests alert the server to update something. In our web application we are updating the number of stocks available, for a patch request we have to specify the ID so that our server knows what we want to change.
+
+We added an update button to each product so that when it is pressed it will reduce for that specific card.
+
+**DELETE request**
+As the name suggests this request alerts the server to permenently. For this request you also have to specify the id to tell the server which to delete specifically.

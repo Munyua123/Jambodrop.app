@@ -31,7 +31,17 @@
               Search
             </button>
           </form>
-          <i class="fa-solid fa-cart-shopping"></i>
+          <section>
+            <!-- This will deal with showing the customer what they have ordered once they click the cart
+            button -->
+            <i id="cartMenu" class="fa-solid fa-cart-shopping"></i>
+            <div>
+              <ul id="cartList">
+                 <!-- This is where the list items will go -->
+              </ul>
+              <p>Total: Ksh <span id="total">0</span></p>
+            </div>
+          </section>
           <button
             class="navbar-toggler"
             type="button"
@@ -78,6 +88,15 @@
         <!-- This will hold all the products -->
         <ul id="item-list" class="row">
         </ul>
+    </section>
+    <section>
+      <!-- This will deal with showing the customer what they have ordered once they click the cart
+      button -->
+      <div>
+        <ul id="cartList">
+           <!-- This is where the list items will go -->
+        </ul>
+      </div>
     </section>
     <section>
         <!-- This will hold the review forms, and the reviews on the products -->
