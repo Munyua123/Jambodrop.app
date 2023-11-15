@@ -17,6 +17,14 @@ function displayProducts(item) {
   </div>
     `;
   products.appendChild(productDetails);
+  const search = document.querySelector("#searchInput")
+  const searchButtons = document.querySelector("#searchButton")
+
+  searchButtons.addEventListener("click", (e) => {
+    e.preventDefault()
+    const searchTerm = search.value;
+    console.log("Search Term:", searchTerm)
+  })
   /*
   let cartButton = document.querySelector("#addToCart")
   cartButton.addEventListener("click", createMenu)
@@ -44,6 +52,7 @@ function displayProducts(item) {
 })
 */
 }
+
 function displayReviews(items) {
   let review = document.querySelector("#review-list");
   let reviewList = document.createElement("li");
